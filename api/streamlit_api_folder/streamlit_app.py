@@ -1203,7 +1203,6 @@ if "prediction_results" in st.session_state and st.session_state["prediction_res
                     # Save for PDF
                     st.session_state["attention_cam"] = attention_cam
                     st.session_state["original_for_pdf"] = st.session_state["analyzed_image"]
-
             # Generate PDF button
             pdf_col1, pdf_col2 = st.columns([1, 1])
             with pdf_col1:
